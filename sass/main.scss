@@ -1,0 +1,62 @@
+$main-color: #0E283F;
+$blue-color: #64AAD8;
+$orange-color: #FFBF6D;
+
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+@font-face{
+    font-family: 'SofiaSans';
+    src: url("../fonts/SofiaSansVariableFont_wght.woff2") format('woff2');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    font-family: "SofiaSans", sans-serif;
+    background-color: $main-color;
+}
+
+:root {
+    --color-white: #fff;
+    --color-darkblue: #1A1C21;
+    --color-red: #DC0909;
+}
+
+.btn__reset{
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+.list__reset{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.conteiner{
+
+}
+
+
