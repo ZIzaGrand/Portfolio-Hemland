@@ -31,6 +31,7 @@ img {
 body {
   font-family: "SofiaSans", sans-serif;
   background-color: #0E283F;
+  color: #fff;
 }
 
 :root {
@@ -50,4 +51,341 @@ body {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+.title {
+  font-family: "Lobster";
+  margin: 0;
+}
+
+.text {
+  font-family: "Sofia Sans";
+}
+
+.conteiner__header {
+  margin-top: 10px;
+}
+
+.header-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 40px;
+}
+
+.header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 76px;
+}
+
+.header-menu {
+  font-family: "Lobster";
+  font-weight: 300;
+  line-height: 45px;
+  color: #fff;
+}
+
+.header-menu:hover {
+  color: #FFBF6D;
+}
+
+.hero {
+  margin-top: 20px;
+}
+
+.container__hero {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 20px 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.hero-block:first-child {
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+.hero-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.5em;
+}
+
+.wave {
+  width: 70%;
+}
+
+.hero-text {
+  width: 70%;
+  font-weight: 400;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.hero-block:last-child {
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-buffer__block {
+  width: 500px;
+  height: 500px;
+  border-width: 20px 30px 20px 0px;
+  border-style: solid;
+  border-color: #64AAD8;
+  -webkit-box-shadow: 0px 6px 40px 21px #000000;
+          box-shadow: 0px 6px 40px 21px #000000;
+  border-radius: 551px;
+  overflow: hidden;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.portfolio {
+  margin-top: 100px;
+}
+
+.folder-portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.portfolio-title__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.block__over {
+  width: 50%;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 40, 63, 0.6)), to(rgba(14, 40, 63, 0.6))), url(/img/1614628025_3-p-fon-bumagi-dlya-fotoshopa-3.jpg);
+  background: linear-gradient(rgba(14, 40, 63, 0.6), rgba(14, 40, 63, 0.6)), url(/img/1614628025_3-p-fon-bumagi-dlya-fotoshopa-3.jpg);
+  -webkit-box-shadow: inset 0px -42px 45px -36px #000000;
+          box-shadow: inset 0px -42px 45px -36px #000000;
+  border-radius: 36px 36px 0px 0px;
+}
+
+.title-portfolio {
+  font-weight: 400;
+  font-size: 1.8em;
+}
+
+.portfolio-albom {
+  position: relative;
+}
+
+.photo__albom {
+  padding: 30px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(178, 206, 255, 0.4)), to(rgba(178, 206, 224, 0.4))), url(/img/1614628025_3-p-fon-bumagi-dlya-fotoshopa-3.jpg) 0 0/100% 100% no-repeat;
+  background: linear-gradient(rgba(178, 206, 255, 0.4), rgba(178, 206, 224, 0.4)), url(/img/1614628025_3-p-fon-bumagi-dlya-fotoshopa-3.jpg) 0 0/100% 100% no-repeat;
+  -webkit-box-shadow: 0px 0px 25px #000000;
+          box-shadow: 0px 0px 25px #000000;
+  border-radius: 36px 0 0 36px;
+}
+
+.labum__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 70px 1fr 70px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 60px;
+  -webkit-column-gap: 70px;
+     -moz-column-gap: 70px;
+          column-gap: 70px;
+}
+
+.work__block {
+  position: relative;
+}
+
+.img__block {
+  padding: 10px;
+  position: relative;
+}
+
+.text__block {
+  height: 200px;
+  padding: 10px;
+  background: url(/img/1614628025_3-p-fon-bumagi-dlya-fotoshopa-3.jpg);
+  -webkit-box-shadow: 0px -7px 9px -5px #000000;
+          box-shadow: 0px -7px 9px -5px #000000;
+}
+
+.photo-title__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10px;
+}
+
+.desc__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.half__quadro {
+  width: 70px;
+  height: 70px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(194, 131, 50, 0.5)), to(rgba(194, 131, 50, 0.5))), url(/img/1614628025_3-p-fon-bumagi-dlya-fotoshopa-3.jpg);
+  background: linear-gradient(0deg, rgba(194, 131, 50, 0.5), rgba(194, 131, 50, 0.5)), url(/img/1614628025_3-p-fon-bumagi-dlya-fotoshopa-3.jpg);
+  -webkit-box-shadow: -6px -6px 9px -5px rgba(0, 0, 0, 0.25);
+          box-shadow: -6px -6px 9px -5px rgba(0, 0, 0, 0.25);
+  border-radius: 105px 0px 0px 0px;
+  position: absolute;
+}
+
+.half__left__quadro {
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+  bottom: -10px;
+  left: -10px;
+}
+
+.half__right__quadro {
+  bottom: -10px;
+  right: -10px;
+}
+
+.arrow__block {
+  width: 70px;
+  height: 100px;
+  background-color: var(--color-white);
+  border-radius: 0 0 20px 20px;
+  position: absolute;
+  margin: 0 auto;
+  bottom: -50px;
+  right: 0;
+  left: 0;
+  -webkit-clip-path: polygon(50% 30%, 100% 0%, 100% 100%, 0% 100%, 0% 0%);
+          clip-path: polygon(50% 30%, 100% 0%, 100% 100%, 0% 100%, 0% 0%);
+}
+
+.arrow__circle {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.trust {
+  margin-top: 100px;
+}
+
+.conteiner__trust {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+
+.trust-title__block {
+  width: 100%;
+}
+
+.title-trust {
+  text-align: center;
+}
+
+.trust-us__block {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.footer {
+  margin-top: 100px;
+}
+
+.container__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 100px;
+}
+
+.social__img {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
